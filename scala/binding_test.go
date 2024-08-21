@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	sitter "github.com/smacker/go-tree-sitter"
-	"github.com/smacker/go-tree-sitter/scala"
 	"github.com/stretchr/testify/assert"
+	sitter "github.com/zzctmac/go-tree-sitter"
+	"github.com/zzctmac/go-tree-sitter/scala"
 )
 
 const code = `package com.foo.bar`

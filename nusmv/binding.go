@@ -1,7 +1,7 @@
-package javascript
+package nusmv
 
 //#include "parser.h"
-//TSLanguage *tree_sitter_javascript();
+//TSLanguage *tree_sitter_nusmv();
 import "C"
 import (
 	"unsafe"
@@ -10,6 +10,6 @@ import (
 )
 
 func GetLanguage() *sitter.Language {
-	ptr := unsafe.Pointer(C.tree_sitter_javascript())
+	ptr := unsafe.Pointer(C.tree_sitter_nusmv())
 	return sitter.NewLanguage(ptr)
 }

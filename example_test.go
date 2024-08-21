@@ -8,8 +8,8 @@ import (
 	"log"
 	"strings"
 
-	sitter "github.com/smacker/go-tree-sitter"
-	"github.com/smacker/go-tree-sitter/golang"
+	sitter "github.com/zzctmac/go-tree-sitter"
+	"github.com/zzctmac/go-tree-sitter/golang"
 )
 
 // ExampleCursorTraversal recursively prints the tree using TreeCursor.
